@@ -33,4 +33,13 @@ public class CourseAbstract {
         }
         this.setCredits(credits);
     }
+
+    @Override
+    public String toString() {
+        return "CourseAbstract{" +
+                "courseName='" + courseName + '\'' +
+                ", courseNumber='" + courseNumber + '\'' +
+                ", credits=" + credits +
+                '}';
+    }
 }

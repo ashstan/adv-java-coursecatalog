@@ -29,4 +29,12 @@ public class IntroJavaCourse extends CourseAbstract{
         this.prerequisites = prerequisites;
     }
 
+    @Override
+    public String toString() {
+        return super.toString() +
+                "IntroJavaCourse{" +
+                "prerequisites='" + prerequisites + '\'' +
+                '}';
+    }
+
 }

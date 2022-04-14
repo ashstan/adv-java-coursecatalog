@@ -16,7 +16,8 @@ public class IntroToProgrammingCourse extends CourseAbstract {
         super.setCourseNumber(courseNumber);
     }
 
-
-
-
+    @Override
+    public String toString() {
+        return super.toString();
+    }
 }

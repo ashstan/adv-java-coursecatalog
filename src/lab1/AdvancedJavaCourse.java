@@ -39,4 +39,11 @@ public class AdvancedJavaCourse extends CourseAbstract {
         this.setCredits(credits);
     }
 
+    @Override
+    public String toString() {
+        return super.toString() +
+                "AdvancedJavaCourse{" +
+                "prerequisites='" + prerequisites + '\'' +
+                '}';
+    }
 }
