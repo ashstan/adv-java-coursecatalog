@@ -20,7 +20,7 @@ public class IntroJavaCourse implements CourseLike {
 
     @Override
     public String getCourseName() {
-        return null;
+        return this.courseName;
     }
 
     @Override
